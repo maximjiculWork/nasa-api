@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 export default function MainGenerator() {
-  const [imageUrl, setImageUrl] = useState("/img/nasa-image.png");
+  const [imageUrl, setImageUrl] = useState("./img/nasa-image.png");
   const [waitingText, setWaitingText] = useState("");
   const [descriptionText, setDescriptionText] = useState("");
 

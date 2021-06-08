@@ -123,6 +123,7 @@ body {
 .description-for-image {
   max-width: 700px;
   padding: 20px 0;
+  line-height: 1.8;
 }
 
 .go-home-block {
